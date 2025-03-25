@@ -13,6 +13,8 @@ const rankingData = [
 
 const medallas = ["🥇", "🥈", "🥉", "4", "5"];
 
+const modulos = ["GIT", "EDA", "JS"];
+
 const rankingList = document.getElementById("ranking-list");
 rankingData.forEach((persona, index) => {
     const div = document.createElement("div");

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.notas-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.4);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.tabla-notas th, .tabla-notas td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.tabla-notas th {
+    background-color: #1e1e1e;
+    color: #ffdd44;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabla-notas td {
+    background-color: #333;
+    color: #fff;
+}
+
+.nota-input {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 5px;
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nota-input:focus {
+    background-color: #555;
+    outline: none;
+}
+
+.promedio {
+    font-weight: bold;
+    color: #ffdd44;
+}
+
+.ver-detalles {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffdd44;
+    border-radius: 5px;
+    border: 2px solid #ffdd44;
+    transition: all 0.3s ease;
+}
+
+.ver-detalles:hover {
+    background-color: #ffdd44;
+    color: #121212;
+    border: 2px solid #fff;
+    box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.5);
+}
+
+/* Hacer que la tabla sea desplazable horizontalmente en dispositivos pequeños */
+@media (max-width: 1200px) {
+    .tabla-notas {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .tabla-notas th, .tabla-notas td {
+        min-width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tabla-notas th, .tabla-notas td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .nota-input {
+        width: 50px;
+        font-size: 12px;
+    }
+}
