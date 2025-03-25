@@ -4,12 +4,11 @@ console.log("hola mundo");
 
 
 const rankingData = [
-    { nombre: "Juan Pérez", puntos: 150 },
-    { nombre: "Ana Gómez", puntos: 140 },
-    { nombre: "Carlos López", puntos: 130 },
-    { nombre: "María Fernández", puntos: 120 },
-    { nombre: "Pedro Sánchez", puntos: 110 },
-    { nombre: "Laura Ramírez", puntos: 100 }
+    { nombre: "Christopher Arteaga", puntos: 0 },
+    { nombre: "Alain Campoverde", puntos: 0 },
+    { nombre: "Paola Barros", puntos: 0 },
+    { nombre: "Anthony Loor", puntos: 0 },
+    { nombre: "Austin Salguero", puntos: 0 }
 ];
 
 const medallas = ["🥇", "🥈", "🥉"];
