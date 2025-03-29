@@ -1,13 +1,10 @@
 
 
-console.log("hola mundo");
-
-
 const rankingData = [
-    { nombre: "Christopher Arteaga", puntos: 0 },
-    { nombre: "Alain Campoverde", puntos: 0 },
-    { nombre: "Paola Barros", puntos: 0 },
-    { nombre: "Anthony Loor", puntos: 0 },
+    { nombre: "Paola Barros", puntos: 8 },
+    { nombre: "Christopher Arteaga", puntos: 8 },
+    { nombre: "Alain Campoverde", puntos: 8 },
+    { nombre: "Anthony Loor", puntos: 8 },
     { nombre: "Austin Salguero", puntos: 0 },
 ];
 
