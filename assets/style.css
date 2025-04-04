@@ -51,3 +51,25 @@ body {
     font-size: 20px;
     margin-right: 10px;
 }
+
+
+
+.ver-detalles {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #ffdd44; 
+    transition: all 0.3s ease;
+}
+
+.ver-detalles:hover {
+    background-color: #ffdd44; 
+    color: #121212; 
+    border: 2px solid #fff; 
+    box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.5); 
+}

@@ -1,17 +1,16 @@
 
 
-console.log("hola mundo");
-
-
 const rankingData = [
-    { nombre: "Christopher Arteaga", puntos: 0 },
-    { nombre: "Alain Campoverde", puntos: 0 },
-    { nombre: "Paola Barros", puntos: 0 },
-    { nombre: "Anthony Loor", puntos: 0 },
-    { nombre: "Austin Salguero", puntos: 0 },
+    { nombre: "Christopher Arteaga", puntos: 9},
+    { nombre: "Paola Barros", puntos: 9 },
+    { nombre: "Anthony Loor", puntos: 8.5 },
+    { nombre: "Austin Salguero", puntos: 7.5 },
+    { nombre: "Alain Campoverde", puntos: 4 },
 ];
 
 const medallas = ["🥇", "🥈", "🥉", "4", "5"];
+
+const modulos = ["GIT", "EDA", "JS"];
 
 const rankingList = document.getElementById("ranking-list");
 rankingData.forEach((persona, index) => {
