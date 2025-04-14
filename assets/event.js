@@ -1,11 +1,11 @@
 
 
 const rankingData = [
-    { nombre: "Christopher Arteaga", puntos: 9},
-    { nombre: "Paola Barros", puntos: 9 },
-    { nombre: "Anthony Loor", puntos: 8.5 },
-    { nombre: "Austin Salguero", puntos: 7.5 },
-    { nombre: "Alain Campoverde", puntos: 4 },
+    { nombre: "Paola Barros", puntos: 9.3 },
+    { nombre: "Christopher Arteaga", puntos: 9.2},
+    { nombre: "Anthony Loor", puntos: 4.2 },
+    { nombre: "Austin Salguero", puntos: 3.7 },
+    { nombre: "Alain Campoverde", puntos: 3.2 },
 ];
 
 const medallas = ["🥇", "🥈", "🥉", "4", "5"];
